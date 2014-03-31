@@ -13,7 +13,7 @@ fun! SetupVAM()
     execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '
         \       shellescape(c.plugin_root_dir.'/vim-addon-manager', 1)
   endif
-  call vam#ActivateAddons(['ctrlp', 'vim-multiple-cursors', 'seoul256', 'mru'], {'auto_install' : 0})
+  call vam#ActivateAddons(['ctrlp', 'vim-multiple-cursors', 'seoul256'], {'auto_install' : 0})
 endfun
 
 call SetupVAM()
@@ -55,4 +55,4 @@ highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>f :MRU<CR>
+nnoremap <Leader>f :CtrlPMRU<CR>
