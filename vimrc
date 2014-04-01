@@ -79,5 +79,11 @@ nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>f :CtrlPMRU<CR>
 nnoremap <Leader>w :w<CR>
 
-"Use jk to stay on the home row
+"Switch to split and maximize it
+nnoremap <C-H> <C-W>h<C-W><Bar>
+nnoremap <C-J> <C-W>j<C-W>_
+nnoremap <C-K> <C-W>k<C-W>_
+nnoremap <C-L> <C-W>l<C-W><Bar>
+
+"Use jk to leave insert mode
 inoremap jk <ESC>
