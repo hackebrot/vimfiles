@@ -30,22 +30,44 @@ set wildignore+=*.pyc
 "SETTINGS
 "================
 colorscheme seoul256-light
-set scrolloff=5 sidescrolloff=5
-set hlsearch
-set incsearch
+"
+"Display line numbers
 set number
+
+"Start scrolling before reaching a window border
+set scrolloff=5 sidescrolloff=5
+
+"Highlight search matches
+set hlsearch
+
+"Jump to match while typing the search pattern
+set incsearch
+
+"Start at the indentation level of the prev line
 set autoindent
+
+"Use 4 spaces instead of a tab
+set expandtab
 set tabstop=4
 set shiftwidth=4
-set expandtab
+
+"Do not wrap long lines
 set nowrap
-set showmatch
+
+"Create a split when switching to a different buffer
 set switchbuf+=split
 
-execute "set colorcolumn=" . join(range(81,400), ',')
-highlight colorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
+"Use intuitive alignment for new splits
+set splitright
+set splitbelow
+
+"Indicate max line length. Set to 79 as defined in Pythons PEP 8
+execute "set colorcolumn=" . join(range(80,400), ',')
+
+"Display the cursors current column and line
 set cursorline
 set cursorcolumn
+highlight colorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 
 
@@ -54,5 +76,8 @@ highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 "================
 let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
-nnoremap <Leader>w :w<CR>
 nnoremap <Leader>f :CtrlPMRU<CR>
+nnoremap <Leader>w :w<CR>
+
+"Use jk to stay on the home row
+inoremap jk <ESC>
