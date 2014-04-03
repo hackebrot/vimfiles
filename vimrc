@@ -73,6 +73,10 @@ highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 "Extend backspace capabilities
 set backspace=indent,eol,start
 
+"Restore visual selection after changing the level of indentation
+vnoremap > >gv
+vnoremap < <gv
+
 
 "================
 "MAPPING
