@@ -77,6 +77,10 @@ set backspace=indent,eol,start
 vnoremap > >gv
 vnoremap < <gv
 
+"Case sensitive basic search only if pattern contains uppercase char
+set ignorecase 
+set smartcase
+
 
 "================
 "MAPPING
