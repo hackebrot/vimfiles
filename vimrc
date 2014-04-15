@@ -73,10 +73,6 @@ highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 "Extend backspace capabilities
 set backspace=indent,eol,start
 
-"Restore visual selection after changing the level of indentation
-vnoremap > >gv
-vnoremap < <gv
-
 "Case sensitive basic search only if pattern contains uppercase char
 set ignorecase 
 set smartcase
@@ -98,3 +94,7 @@ nnoremap <C-L> <C-W>l<C-W><Bar>
 
 "Use jk to leave insert mode
 inoremap jk <ESC>
+
+"Restore visual selection after changing the level of indentation
+vnoremap > >gv
+vnoremap < <gv
