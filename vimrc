@@ -34,6 +34,9 @@ colorscheme seoul256-light
 "Display line numbers
 set number
 
+"Use unix fileformat
+set fileformat=unix
+
 "Start scrolling before reaching a window border
 set scrolloff=5 sidescrolloff=5
 
