@@ -80,6 +80,19 @@ set backspace=indent,eol,start
 set ignorecase 
 set smartcase
 
+"Turn on backups
+set backup
+set writebackup
+
+"Enable 7.3 persistent undo feature
+set undofile
+set undolevels=1000
+set undoreload=10000
+
+"Use dedicated locations for vim files (see http://stackoverflow.com/a/15317146)
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
 
 "================
 "MAPPING
