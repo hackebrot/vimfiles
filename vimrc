@@ -103,6 +103,11 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
+"Disable beeping and flashing when an error occurs
+set noerrorbells
+set visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
 "================
 "MAPPING
 "================
