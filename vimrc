@@ -22,7 +22,9 @@ fun! SetupVAM()
     execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '
         \       shellescape(c.plugin_root_dir.'/vim-addon-manager', 1)
   endif
-  call vam#ActivateAddons(['ctrlp', 'vim-multiple-cursors', 'seoul256'], {'auto_install' : 0})
+  call vam#ActivateAddons(['ctrlp'], {'auto_install' : 0})
+  call vam#ActivateAddons(['vim-multiple-cursors'], {'auto_install' : 0})
+  call vam#ActivateAddons(['seoul256'], {'auto_install' : 0})
 endfun
 
 call SetupVAM()
