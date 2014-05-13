@@ -25,6 +25,7 @@ fun! SetupVAM()
   call vam#ActivateAddons(['ctrlp'], {'auto_install' : 0})
   call vam#ActivateAddons(['vim-multiple-cursors'], {'auto_install' : 0})
   call vam#ActivateAddons(['seoul256'], {'auto_install' : 0})
+  call vam#ActivateAddons(['The_NERD_Commenter'], {'auto_install' : 0})
 endfun
 
 call SetupVAM()
