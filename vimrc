@@ -115,9 +115,14 @@ autocmd GUIEnter * set visualbell t_vb=
 "================
 "MAPPING
 "================
+"Change leader to space
 let mapleader = "\<Space>"
+
+"Open file and open most recently used
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>f :CtrlPMRU<CR>
+
+"Write file
 nnoremap <Leader>w :w<CR>
 
 "Switch to split and maximize it
