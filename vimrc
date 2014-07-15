@@ -122,8 +122,10 @@ let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>f :CtrlPMRU<CR>
 
-"Write file
+"Write and close file
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>Q :q!<CR>
 
 "Switch to split and maximize it
 nnoremap <C-H> <C-W>h<C-W><Bar>
