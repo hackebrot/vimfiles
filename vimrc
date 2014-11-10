@@ -128,10 +128,10 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>Q :q!<CR>
 
 "Switch to split and maximize it
-nnoremap <C-H> <C-W>h<C-W><Bar>
-nnoremap <C-J> <C-W>j<C-W>_
-nnoremap <C-K> <C-W>k<C-W>_
-nnoremap <C-L> <C-W>l<C-W><Bar>
+nnoremap <C-H> <C-W>h<C-W><Bar>0
+nnoremap <C-J> <C-W>j<C-W>_0
+nnoremap <C-K> <C-W>k<C-W>_0
+nnoremap <C-L> <C-W>l<C-W><Bar>0
 
 "Use jk to leave insert mode
 inoremap jk <ESC>
