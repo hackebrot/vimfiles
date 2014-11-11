@@ -93,6 +93,9 @@ set backspace=indent,eol,start
 set ignorecase 
 set smartcase
 
+"Automatically reload buffers on file changes
+set autoread
+
 "Turn on backups
 set backup
 set writebackup
