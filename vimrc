@@ -27,6 +27,7 @@ fun! SetupVAM()
   call vam#ActivateAddons(['seoul256'], {'auto_install' : 0})
   call vam#ActivateAddons(['The_NERD_Commenter'], {'auto_install' : 0})
   call vam#ActivateAddons(['surround'], {'auto_install' : 0})
+  call vam#ActivateAddons(['fugitive'], {'auto_install' : 0})
 endfun
 
 call SetupVAM()
