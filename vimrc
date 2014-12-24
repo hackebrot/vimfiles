@@ -1,4 +1,20 @@
-set nocompatible | filetype indent plugin on | syn on
+set nocompatible              " be iMproved, required
+filetype off                  " required
+syn on
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
 
 "================
 "LaTeX
@@ -7,31 +23,6 @@ set nocompatible | filetype indent plugin on | syn on
 "set grepprg=grep\ -nH\ $*
 "let g:tex_flavor = "latex"
 "set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
-
-
-"================
-"VAM
-"================
-
-fun! SetupVAM()
-  let c = get(g:, 'vim_addon_manager', {})
-  let g:vim_addon_manager = c
-  let c.plugin_root_dir = expand('$HOME', 1) . '/.vim/vim-addons'
-  let &rtp.=(empty(&rtp)?'':',').c.plugin_root_dir.'/vim-addon-manager'
-  if !isdirectory(c.plugin_root_dir.'/vim-addon-manager/autoload')
-    execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '
-        \       shellescape(c.plugin_root_dir.'/vim-addon-manager', 1)
-  endif
-  call vam#ActivateAddons(['ctrlp'], {'auto_install' : 0})
-  call vam#ActivateAddons(['vim-multiple-cursors'], {'auto_install' : 0})
-  call vam#ActivateAddons(['seoul256'], {'auto_install' : 0})
-  call vam#ActivateAddons(['The_NERD_Commenter'], {'auto_install' : 0})
-  call vam#ActivateAddons(['surround'], {'auto_install' : 0})
-  call vam#ActivateAddons(['fugitive'], {'auto_install' : 0})
-endfun
-
-call SetupVAM()
-VAMActivate matchit.zip vim-addon-commenting
 
 
 "================
