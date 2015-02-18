@@ -23,15 +23,6 @@ filetype plugin indent on    " required
 
 
 "================
-"LaTeX
-"================
-"Those settings have been pointed out during installation of vim-latexsuite
-"set grepprg=grep\ -nH\ $*
-"let g:tex_flavor = "latex"
-"set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
-
-
-"================
 "CTRL-P
 "================
 set wildignore+=*.pyc
