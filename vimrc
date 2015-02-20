@@ -27,6 +27,7 @@ filetype plugin indent on    " required
 "CTRL-P
 "================
 set wildignore+=*.pyc
+let g:ctrlp_working_path_mode = ''
 
 
 "================
