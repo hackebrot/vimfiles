@@ -14,6 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tommcdo/vim-exchange'
+Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 
