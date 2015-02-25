@@ -2,11 +2,7 @@
 vimfiles
 ========
 
-My personal VIM configuration
------------------------------
-
-vimrc_
-
+This repo features my personal vimrc_ as well as a cheat sheet for nifty vim commands.
 
 .. _vimrc: vimrc
 
