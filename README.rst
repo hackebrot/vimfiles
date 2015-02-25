@@ -20,6 +20,20 @@ The following will display the count, but will not change the buffer::
 See `Tip 860`_ by Marc Weber on the `vim wiki`_.
 
 
+Find in files
+~~~~~~~~~~~~~
+
+Search for ``foobar`` in all python files in the current directory and all subdirectories::
+
+    :noautocmd vimgrep /foobar/gj ./**/*.py
+
+Disable autocommands to increase search speed.
+
+Use ``:cw`` to open the quickfix window.
+
+See `Tip 1543`_ by Fritzophrenic on the `vim wiki`_.
+
+
 License
 -------
 
@@ -29,6 +43,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
+.. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 
 .. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`vim wiki`: http://vim.wikia.com
