@@ -34,6 +34,24 @@ Use ``:cw`` to open the quickfix window.
 See `Tip 1543`_ by Fritzophrenic on the `vim wiki`_.
 
 
+Marks
+~~~~~
+
+Set mark ``a`` at current cursor location::
+
+    ma
+
+Jump to position (line and column) of mark ``a``::
+
+    `a
+
+Delete mark ``a``::
+
+    :delm a
+
+See `Tip 42`_ on the `vim wiki`_.
+
+
 License
 -------
 
@@ -42,6 +60,7 @@ License
 This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
 
 
+.. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
 .. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 
