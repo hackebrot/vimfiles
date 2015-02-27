@@ -92,6 +92,11 @@ Go to next/previous tab in normal mode::
 See `Tip 1347`_ on the `vim wiki`_.
 
 
+Move a split to a new tab::
+
+    <C-W>T
+
+
 License
 -------
 
