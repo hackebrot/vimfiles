@@ -52,6 +52,16 @@ Delete mark ``a``::
 See `Tip 42`_ on the `vim wiki`_.
 
 
+Run macro on visual selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run the macro from register ``q`` on each line of your selection::
+
+    :normal @q
+
+See `Tip 398`_ on the `vim wiki`_.
+
+
 License
 -------
 
@@ -61,6 +71,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 
 .. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
+.. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
 .. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 
