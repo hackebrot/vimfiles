@@ -72,6 +72,26 @@ Run the macro from register ``q`` on each line of your selection::
 See `Tip 398`_ on the `vim wiki`_.
 
 
+Tabs
+~~~~
+
+Open files in tabs::
+
+    vim -p foo.py bar.py
+    vim -p *.py
+
+List all tabs::
+
+    :tabs
+
+Go to next/previous tab in normal mode::
+
+    gt
+    gT
+
+See `Tip 1347`_ on the `vim wiki`_.
+
+
 License
 -------
 
@@ -83,6 +103,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
 .. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
+.. _`Tip 1347`: http://vim.wikia.com/wiki/Using_tab_pages
 .. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 .. _`Tip 1584`: http://vim.wikia.com/wiki/Visual_selection
 
