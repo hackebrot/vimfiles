@@ -52,6 +52,16 @@ Delete mark ``a``::
 See `Tip 42`_ on the `vim wiki`_.
 
 
+Restore a visual selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Reselect the last block::
+
+    gv
+
+See `Tip 1584`_ by Metacosm on the `vim wiki`_.
+
+
 Run macro on visual selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -74,6 +84,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
 .. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
+.. _`Tip 1584`: http://vim.wikia.com/wiki/Visual_selection
 
 .. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`vim wiki`: http://vim.wikia.com
