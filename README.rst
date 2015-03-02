@@ -118,6 +118,11 @@ Move a split to a new tab::
     <C-W>T
 
 
+Move each of the opened buffers to a new tab::
+
+    :tab sball
+
+
 License
 -------
 
