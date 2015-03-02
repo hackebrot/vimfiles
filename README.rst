@@ -62,6 +62,27 @@ Reselect the last block::
 See `Tip 1584`_ by Metacosm on the `vim wiki`_.
 
 
+Run macro on multiple windows, tabs, buffers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run macro ``q`` on all tabs (files are not saved to disk)::
+
+    :tabdo normal! @q
+
+You can also write all the changed tabs to disk in a single step::
+
+    :tabdo execute "normal! @q" | update
+
+Depeneding on how you work with buffers you may need to choose a slightly different command:
+
+* ``argdo`` - all files in argument list
+* ``bufdo`` - all buffers
+* ``tabdo`` - all tabs
+* ``windo`` - all windows in the current tab
+
+See `Tip 133`_ on the `vim wiki`_.
+
+
 Run macro on visual selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -106,6 +127,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 
 .. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
+.. _`Tip 133`: http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
 .. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
 .. _`Tip 1347`: http://vim.wikia.com/wiki/Using_tab_pages
