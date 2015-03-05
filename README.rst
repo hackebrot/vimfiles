@@ -123,6 +123,19 @@ Move each of the opened buffers to a new tab::
     :tab sball
 
 
+Plugins
+-------
+
+Fugitive
+~~~~~~~~
+
+Resolve merge conflicts. Open three-way diff::
+
+    :Gdiff
+
+Plugin by Tim Pope. See `vim-fugitive`_.
+
+
 License
 -------
 
@@ -141,3 +154,5 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 .. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`vim wiki`: http://vim.wikia.com
+
+.. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
