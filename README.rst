@@ -133,6 +133,11 @@ Resolve merge conflicts. Open three-way diff::
 
     :Gdiff
 
+Jump to the next/previous hunk in a diff::
+
+    ]c
+    [c
+
 Write the current file to the index::
 
     :Gwrite
