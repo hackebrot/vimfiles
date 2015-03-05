@@ -133,6 +133,15 @@ Resolve merge conflicts. Open three-way diff::
 
     :Gdiff
 
+Write the current file to the index::
+
+    :Gwrite
+
+Commit the staged changes along with a message::
+
+    :Gcommit -m 'Create a settings json file and load it in the app'
+
+
 Plugin by Tim Pope. See `vim-fugitive`_.
 
 
