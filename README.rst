@@ -146,6 +146,19 @@ Commit the staged changes along with a message::
 
     :Gcommit -m 'Create a settings json file and load it in the app'
 
+Imagine the following scenario::
+
+    git checkout master
+    git merge feat/user-settings-panel
+
+Pull over a hunk from the ``master``::
+
+    :diffget //2
+
+Pull over a hunk from ``feat/user-settings-panel``::
+
+    :diffget //3
+
 
 Plugin by Tim Pope. See `vim-fugitive`_.
 
