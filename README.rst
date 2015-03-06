@@ -162,6 +162,8 @@ Pull over a hunk from ``feat/user-settings-panel``::
 
 Plugin by Tim Pope. See `vim-fugitive`_.
 
+For a great tutorial on *Fugitive* by Drew Neil please visit `vimcasts.org`_.
+
 
 License
 -------
@@ -183,3 +185,4 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`vim wiki`: http://vim.wikia.com
 
 .. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
+.. _`vimcasts.org`: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
