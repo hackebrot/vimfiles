@@ -140,6 +140,32 @@ Run ``find`` and load the results into the quickfix list::
 Plugin by Tim Pope. See `vim-eunuch`_.
 
 
+Exchange
+~~~~~~~~
+
+Mark a word for exchange::
+
+    cxiw
+
+Replace the word under the cursor by repeating the command::
+
+    .
+
+The same works for lines::
+
+    cxx
+
+Or in Visual mode::
+
+    X
+
+Clear selection::
+
+    cxc
+
+Plugin by Tom McDonald. See `vim-exchange`_.
+
+
 Fugitive
 ~~~~~~~~
 
@@ -199,5 +225,6 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`vim wiki`: http://vim.wikia.com
 
 .. _`vim-eunuch`: https://github.com/tpope/vim-eunuch
+.. _`vim-exchange`: https://github.com/tommcdo/vim-exchange
 .. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
 .. _`vimcasts.org`: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
