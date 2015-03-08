@@ -126,6 +126,20 @@ Move each of the opened buffers to a new tab::
 Plugins
 -------
 
+Eunuch
+~~~~~~
+
+Move the current file relative to the its containing directory::
+
+    :Rename
+
+Run ``find`` and load the results into the quickfix list::
+
+    :Find
+
+Plugin by Tim Pope. See `vim-eunuch`_.
+
+
 Fugitive
 ~~~~~~~~
 
@@ -163,20 +177,6 @@ Pull over a hunk from ``feat/user-settings-panel``::
 Plugin by Tim Pope. See `vim-fugitive`_.
 
 For a great tutorial on *Fugitive* by Drew Neil please visit `vimcasts.org`_.
-
-
-Eunuch
-~~~~~~
-
-Move the current file relative to the its containing directory::
-
-    :Rename
-
-Run ``find`` and load the results into the quickfix list::
-
-    :Find
-
-Plugin by Tim Pope. See `vim-eunuch`_.
 
 
 License
