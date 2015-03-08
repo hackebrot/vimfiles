@@ -205,6 +205,24 @@ Plugin by Tim Pope. See `vim-fugitive`_.
 For a great tutorial on *Fugitive* by Drew Neil please visit `vimcasts.org`_.
 
 
+Surround
+~~~~~~~~
+
+Change ``"Hello world!"`` to ``'Hello world!'``::
+
+    cs"'
+
+Remove delimiters entirely::
+
+    ds"
+
+Add another pair of parentheses to ``(Fizz Buzz)``::
+
+    ysi))
+
+Plugin by Tim Pope. See `vim-surround`_.
+
+
 License
 -------
 
@@ -227,4 +245,5 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`vim-eunuch`: https://github.com/tpope/vim-eunuch
 .. _`vim-exchange`: https://github.com/tommcdo/vim-exchange
 .. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
+.. _`vim-surround`: https://github.com/tpope/vim-surround
 .. _`vimcasts.org`: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
