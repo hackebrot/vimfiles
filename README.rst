@@ -165,6 +165,20 @@ Plugin by Tim Pope. See `vim-fugitive`_.
 For a great tutorial on *Fugitive* by Drew Neil please visit `vimcasts.org`_.
 
 
+Eunuch
+~~~~~~
+
+Move the current file relative to the its containing directory::
+
+    :Rename
+
+Run ``find`` and load the results into the quickfix list::
+
+    :Find
+
+Plugin by Tim Pope. See `vim-eunuch`_.
+
+
 License
 -------
 
@@ -184,5 +198,6 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`vim wiki`: http://vim.wikia.com
 
+.. _`vim-eunuch`: https://github.com/tpope/vim-eunuch
 .. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
 .. _`vimcasts.org`: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
