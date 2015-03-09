@@ -34,6 +34,16 @@ Use ``:cw`` to open the quickfix window.
 See `Tip 1543`_ by Fritzophrenic on the `vim wiki`_.
 
 
+Folding
+~~~~~~~
+
+Toggle the current fold::
+
+    za
+
+See `Tip 108`_ on the `vim wiki`_.
+
+
 Marks
 ~~~~~
 
@@ -236,6 +246,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 
 .. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
+.. _`Tip 108`: http://vim.wikia.com/wiki/Folding
 .. _`Tip 133`: http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
 .. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
