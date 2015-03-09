@@ -199,6 +199,10 @@ Pull over a hunk from ``feat/user-settings-panel``::
 
     :diffget //3
 
+Compare the current file with another branch::
+
+    :Gdiff feat/user-settings-panel
+
 
 Plugin by Tim Pope. See `vim-fugitive`_.
 
