@@ -103,6 +103,18 @@ Run the macro from register ``q`` on each line of your selection::
 See `Tip 398`_ on the `vim wiki`_.
 
 
+Smartcase searching
+~~~~~~~~~~~~~~~~~~~
+
+Given that both ``ignorecase`` and ``smartcase`` are enabled, vim does a case sensitive search only if the pattern contains an uppercase letter.
+
+To explicitly search for a case sensitive pattern use the following::
+
+    /foobar\C
+
+See `Tip 1`_ on the `vim wiki`_.
+
+
 Tabs
 ~~~~
 
@@ -245,6 +257,7 @@ License
 This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
 
 
+.. _`Tip 1`: http://vim.wikia.com/wiki/Searching
 .. _`Tip 42`: http://vim.wikia.com/wiki/Using_marks
 .. _`Tip 108`: http://vim.wikia.com/wiki/Folding
 .. _`Tip 133`: http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
