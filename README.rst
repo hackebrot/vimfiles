@@ -115,6 +115,24 @@ To explicitly search for a case sensitive pattern use the following::
 See `Tip 1`_ on the `vim wiki`_.
 
 
+Substitute with ascending numbers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To replace each occurrence of *abc* with *xyz_N* where N is an ascending number (xyz_1, xyz_2, xyz_3, and so on)::
+
+    :let i = 1 | %s/abc/\='xyz_' . Inc()/g
+
+Whereas ``Inc()`` is a custom function you may want to put in your vimrc::
+
+    function Inc(...)
+      let result = g:i
+      let g:i += a:0 > 0 ? a:1 : 1
+      return result
+    endfunction
+
+See `Tip 918`_ on the `vim wiki`_.
+
+
 Tabs
 ~~~~
 
@@ -263,6 +281,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 .. _`Tip 133`: http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
 .. _`Tip 398`: http://vim.wikia.com/wiki/Macros
 .. _`Tip 860`: http://vim.wikia.com/wiki/Count_number_of_matches_of_a_pattern
+.. _`Tip 918`: http://vim.wikia.com/wiki/Making_a_list_of_numbers
 .. _`Tip 1347`: http://vim.wikia.com/wiki/Using_tab_pages
 .. _`Tip 1543`: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 .. _`Tip 1584`: http://vim.wikia.com/wiki/Visual_selection
