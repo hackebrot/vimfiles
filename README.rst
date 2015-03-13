@@ -132,6 +132,10 @@ Whereas ``Inc()`` is a custom function you may want to put in your vimrc::
 
 See `Tip 918`_ on the `vim wiki`_.
 
+You can refer to match groups in the replacement expression via ``submatch``::
+
+    :let i = 1 | %s/\(foo\s*\)\(abc\)\(\s*bar\)/\=submatch(1) . 'xyz_' . Inc() . submatch(3)/g
+
 
 Tabs
 ~~~~
