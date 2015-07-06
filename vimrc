@@ -8,7 +8,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'joonty/vdebug'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'nvie/vim-flake8'
