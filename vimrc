@@ -35,7 +35,7 @@ let g:ctrlp_working_path_mode = ''
 "================
 "SETTINGS
 "================
-colorscheme seoul256-light
+colorscheme seoul256
 "
 "Display line numbers
 set number
