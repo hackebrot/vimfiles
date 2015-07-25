@@ -32,6 +32,10 @@ filetype plugin indent on    " required
 set wildignore+=*.pyc
 let g:ctrlp_working_path_mode = ''
 
+"================
+"Read aliases
+"================
+let $BASH_ENV = "~/.bash_aliases"
 
 "================
 "SETTINGS
