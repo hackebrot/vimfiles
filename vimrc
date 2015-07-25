@@ -78,11 +78,8 @@ set splitbelow
 "Indicate max line length. Set to 79 as defined in Pythons PEP 8
 execute "set colorcolumn=" . join(range(80,400), ',')
 
-"Display the cursors current column and line
+"Display the cursors current line
 set cursorline
-set cursorcolumn
-highlight colorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
-highlight cursorcolumn term=bold cterm=bold ctermbg=8 guibg=Gray80
 
 "Extend backspace capabilities
 set backspace=indent,eol,start
