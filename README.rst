@@ -10,6 +10,17 @@ This repo features my personal vimrc_ as well as a cheat sheet for nifty vim com
 Cheat Sheet
 -----------
 
+Change text of next search match
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's say you want to replace ``Hello World`` in the following text::
+
+    We are going to write a simple Hello World programm...
+
+Given that you searched for it via ``/Hello World``, you can simply use the following command to change the text::
+
+    cgn
+
 Count number of search matches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
