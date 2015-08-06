@@ -73,6 +73,14 @@ Delete mark ``a``::
 See `Tip 42`_ on the `vim wiki`_.
 
 
+Move cursor to end of match
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add ``/e`` to your search to place the cursor at the end of the match::
+
+    /foobar/e
+
+
 Restore a visual selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
