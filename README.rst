@@ -15,7 +15,7 @@ Change text of next search match
 
 Let's say you want to replace ``Hello World`` in the following text::
 
-    We are going to write a simple Hello World programm...
+    We are going to write a simple Hello World program...
 
 Given that you searched for it via ``/Hello World``, you can simply use the following command to change the text::
 
