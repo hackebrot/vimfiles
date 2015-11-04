@@ -70,6 +70,10 @@ set shiftwidth=4
 "Do not wrap long lines
 set nowrap
 
+"Enable folding
+set foldmethod=indent
+set foldlevel=99
+
 "Create a split when switching to a different buffer
 set switchbuf+=split
 
