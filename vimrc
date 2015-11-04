@@ -36,6 +36,12 @@ set wildignore+=*.pyc
 let g:ctrlp_working_path_mode = ''
 
 "================
+"NERDTree
+"================
+"Ignore *.pyc files in NERDTree
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+"================
 "Read aliases
 "================
 let $BASH_ENV = "~/.bash_aliases"
