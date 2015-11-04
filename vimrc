@@ -50,6 +50,9 @@ set number
 "Use unix fileformat
 set fileformat=unix
 
+"Use unicode encoding
+set encoding=utf-8
+
 "Start scrolling before reaching a window border
 set scrolloff=5 sidescrolloff=5
 
