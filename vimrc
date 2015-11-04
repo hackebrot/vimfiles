@@ -9,16 +9,17 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tmhedberg/SimpylFold'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-Plugin 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
