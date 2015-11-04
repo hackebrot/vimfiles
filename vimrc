@@ -154,6 +154,9 @@ inoremap jk <ESC>
 vnoremap > >gv
 vnoremap < <gv
 
+"Open NERDTree with space+t
+nnoremap <Leader>t :NERDTreeToggle<CR>
+
 "================
 "FUNCTIONS
 "================
