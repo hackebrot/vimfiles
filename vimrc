@@ -157,6 +157,9 @@ vnoremap < <gv
 
 "Open NERDTree in all tabs with space+t
 nnoremap <Leader>t :NERDTreeTabsToggle<CR>
+"
+"Select current file in NERDTree
+nnoremap <Leader>s :NERDTreeTabsFind<CR>
 
 "================
 "FUNCTIONS
