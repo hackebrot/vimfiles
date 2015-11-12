@@ -148,11 +148,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 
-"Switch to split and maximize it
-nnoremap <Leader>h <C-W>h<C-W><Bar>0
-nnoremap <Leader>j <C-W>j<C-W>_0
-nnoremap <Leader>k <C-W>k<C-W>_0
-nnoremap <Leader>l <C-W>l<C-W><Bar>0
+"Maximize current vertical split
+nnoremap <Leader><Leader> <C-W><Bar>0
+nnoremap <Leader>= <C-W>=
 
 "Use jk to leave insert mode
 inoremap jk <ESC>
