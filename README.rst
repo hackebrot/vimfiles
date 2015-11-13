@@ -21,6 +21,11 @@ Given that you searched for it via ``/Hello World``, you can simply use the foll
 
     cgn
 
+Or delete the text via::
+
+    dgn
+
+
 Count number of search matches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
