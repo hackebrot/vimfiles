@@ -276,6 +276,30 @@ Plugin by Tim Pope. See `vim-fugitive`_.
 
 For a great tutorial on *Fugitive* by Drew Neil please visit `vimcasts.org`_.
 
+Jedi
+~~~~
+
+Completion::
+
+    <C-Space>
+
+Goto assignments::
+
+    <leader>g
+
+Goto definitions::
+
+     <leader>d
+
+Renaming::
+
+     <leader>r
+
+Usages::
+
+     <leader>n
+
+Plugin by Dave Halter. See `jedi-vim`_.
 
 Surround
 ~~~~~~~~
@@ -319,6 +343,7 @@ This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.
 
 .. _`vim-eunuch`: https://github.com/tpope/vim-eunuch
 .. _`vim-exchange`: https://github.com/tommcdo/vim-exchange
+.. _`jedi-vim`: https://github.com/davidhalter/jedi-vim
 .. _`vim-fugitive`: https://github.com/tpope/vim-fugitive
 .. _`vim-surround`: https://github.com/tpope/vim-surround
 .. _`vimcasts.org`: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
