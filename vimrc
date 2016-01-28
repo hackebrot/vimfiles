@@ -44,6 +44,12 @@ let g:ctrlp_working_path_mode = ''
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
 "================
+"Jedi-Vim
+"================
+"Disable auto completion
+let g:jedi#completions_enabled = 0
+
+"================
 "Read aliases
 "================
 let $BASH_ENV = "~/.bash_aliases"
