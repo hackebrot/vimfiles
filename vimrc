@@ -49,6 +49,9 @@ let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 "Disable auto completion
 let g:jedi#completions_enabled = 0
 
+"Do not automatically insert `import`
+let g:jedi#smart_auto_mappings = 0
+
 "================
 "Read aliases
 "================
