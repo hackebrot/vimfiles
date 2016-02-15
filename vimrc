@@ -38,6 +38,7 @@ filetype plugin indent on    " required
 "================
 set wildignore+=*.pyc
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 "================
 "NERDTree
