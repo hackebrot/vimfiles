@@ -72,6 +72,9 @@ set fileformat=unix
 "Use unicode encoding
 set encoding=utf-8
 
+"Always display status line
+set laststatus=2
+
 "Start scrolling before reaching a window border
 set scrolloff=5 sidescrolloff=5
 
