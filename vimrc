@@ -54,6 +54,12 @@ let g:jedi#completions_enabled = 0
 let g:jedi#smart_auto_mappings = 0
 
 "================
+"Airline
+"================
+"Set theme for vim-airline
+let g:airline_theme = 'base16'
+
+"================
 "Read aliases
 "================
 let $BASH_ENV = "~/.bash_aliases"
