@@ -60,6 +60,7 @@ let g:jedi#smart_auto_mappings = 0
 "================
 "Set theme for vim-airline
 let g:airline_theme = 'base16'
+let g:airline_extensions = ['ctrlp', 'whitespace', 'tabline']
 
 "================
 "Read aliases
