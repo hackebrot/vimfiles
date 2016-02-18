@@ -62,6 +62,9 @@ let g:jedi#smart_auto_mappings = 0
 let g:airline_theme = 'base16'
 let g:airline_extensions = ['ctrlp', 'whitespace', 'tabline']
 
+"Show tab number and number of splits in tabline
+let g:airline#extensions#tabline#tab_nr_type = 2
+
 "================
 "Read aliases
 "================
