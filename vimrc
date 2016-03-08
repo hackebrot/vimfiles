@@ -181,6 +181,15 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <Leader><Leader> <C-W><Bar>0
 nnoremap <Leader>= <C-W>=
 
+"Move to the next buffer
+nmap <leader>j :bnext<CR>
+
+"Move to the previous buffer
+nmap <leader>k :bprevious<CR>
+
+"Close buffer and go back to previous one
+nmap <leader>bq :bp <BAR> bd #<CR>
+
 "Use jk to leave insert mode
 inoremap jk <ESC>
 
