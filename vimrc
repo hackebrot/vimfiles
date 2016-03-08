@@ -65,6 +65,9 @@ let g:airline_extensions = ['ctrlp', 'whitespace', 'tabline']
 "Show tab number and number of splits in tabline
 let g:airline#extensions#tabline#tab_nr_type = 2
 
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
+
 "================
 "Read aliases
 "================
