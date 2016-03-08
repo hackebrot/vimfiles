@@ -190,6 +190,9 @@ nmap <leader>k :bprevious<CR>
 "Close buffer and go back to previous one
 nmap <leader>bq :bp <BAR> bd #<CR>
 
+"List open buffers
+nmap <leader>bl :ls<CR>
+
 "Use jk to leave insert mode
 inoremap jk <ESC>
 
