@@ -182,13 +182,13 @@ nnoremap <Leader><Leader> <C-W><Bar>0
 nnoremap <Leader>= <C-W>=
 
 "Move to the next buffer
-nmap <leader>j :bnext<CR>
+nmap <leader>e :bnext<CR>
 
 "Move to the previous buffer
-nmap <leader>k :bprevious<CR>
+nmap <leader>a :bprevious<CR>
 
 "Close buffer and go back to previous one
-nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>r :bp <BAR> bd #<CR>
 
 "List open buffers
 nmap <leader>bl :ls<CR>
