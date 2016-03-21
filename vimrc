@@ -69,6 +69,19 @@ let g:airline#extensions#tabline#tab_nr_type = 2
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 "================
+"Seoul256
+"================
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 236
+
+" seoul256 (light):
+"   Range:   252 (darkest) ~ 256 (lightest)
+"   Default: 253
+let g:seoul256_light_background = 255
+
+"================
 "Read aliases
 "================
 let $BASH_ENV = "~/.bash_aliases"
