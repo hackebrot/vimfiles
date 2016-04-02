@@ -26,6 +26,7 @@ Plugin 'tpope/vim-repeat'
 Plugin 'alfredodeza/pytest.vim'
 Plugin 'rking/ag.vim'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'szw/vim-maximizer'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -81,6 +82,11 @@ let g:seoul256_background = 236
 "   Range:   252 (darkest) ~ 256 (lightest)
 "   Default: 253
 let g:seoul256_light_background = 255
+
+"================
+"Maximizer
+"================
+let g:maximizer_default_mapping_key = '<Leader>='
 
 "================
 "Read aliases
@@ -190,10 +196,6 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
-
-"Maximize current vertical split
-nnoremap <Leader><Leader> <C-W><Bar>0
-nnoremap <Leader>= <C-W>=
 
 "Move to the next buffer
 nmap <leader>e :bnext<CR>
