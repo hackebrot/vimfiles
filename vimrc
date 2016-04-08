@@ -86,7 +86,7 @@ let g:seoul256_light_background = 255
 "================
 "Maximizer
 "================
-let g:maximizer_default_mapping_key = '=='
+let g:maximizer_default_mapping_key = '++'
 
 "================
 "Read aliases
