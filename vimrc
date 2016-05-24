@@ -8,25 +8,27 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
+Plugin 'alfredodeza/pytest.vim'
 Plugin 'bling/vim-airline'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'foosoft/vim-argwrap'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'nvie/vim-flake8'
+Plugin 'rking/ag.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'szw/vim-maximizer'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
-Plugin 'alfredodeza/pytest.vim'
-Plugin 'rking/ag.vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'szw/vim-maximizer'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -87,6 +89,11 @@ let g:seoul256_light_background = 255
 "Maximizer
 "================
 let g:maximizer_default_mapping_key = '++'
+
+"================
+"ArgWrap
+"================
+let g:argwrap_tail_comma = 1
 
 "================
 "Read aliases
@@ -221,6 +228,9 @@ nnoremap <Leader>t :NERDTreeTabsToggle<CR>
 "
 "Select current file in NERDTree
 nnoremap <Leader>s :NERDTreeTabsFind<CR>
+
+"ArgWrap toggle wrapping of collections in code
+nnoremap <silent> <Leader>j :ArgWrap<CR>
 
 "================
 "FUNCTIONS
