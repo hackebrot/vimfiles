@@ -106,7 +106,7 @@ let $BASH_ENV = "~/.bash_aliases"
 "================
 "SETTINGS
 "================
-colorscheme seoul256-light
+colorscheme seoul256
 "
 "Display line numbers
 set number
