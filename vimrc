@@ -186,6 +186,9 @@ set noerrorbells
 set visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
+"Use markdown syntax highlighting for lektor content files
+au BufRead,BufNewFile *.lr setfiletype markdown
+
 "================
 "MAPPING
 "================
