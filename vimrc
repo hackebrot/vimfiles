@@ -126,6 +126,9 @@ set scrolloff=5 sidescrolloff=5
 "Highlight search matches
 set hlsearch
 
+"When a bracket is inserted, briefly jump to the matching one
+set showmatch
+
 "Jump to match while typing the search pattern
 set incsearch
 
@@ -161,7 +164,7 @@ set cursorline
 set backspace=indent,eol,start
 
 "Case sensitive basic search only if pattern contains uppercase char
-set ignorecase 
+set ignorecase
 set smartcase
 
 "Automatically reload buffers on file changes
