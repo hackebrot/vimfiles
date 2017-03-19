@@ -62,6 +62,19 @@ let g:jedi#completions_enabled = 0
 let g:jedi#smart_auto_mappings = 0
 
 "================
+"vim-go
+"================
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+nmap <C-g> :GoDecls<cr>
+imap <C-g> <esc>:<C-u>GoDecls<cr>
+
+"================
 "Airline
 "================
 "Set theme for vim-airline
