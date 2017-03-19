@@ -109,6 +109,7 @@ let $BASH_ENV = "~/.bash_aliases"
 colorscheme seoul256
 "
 "Display line numbers
+set relativenumber
 set number
 
 "Use unix fileformat
