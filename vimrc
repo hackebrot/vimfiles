@@ -9,7 +9,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'alfredodeza/pytest.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'ervandew/supertab'
