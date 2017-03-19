@@ -95,7 +95,7 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 " seoul256 (dark):
 "   Range:   233 (darkest) ~ 239 (lightest)
 "   Default: 237
-let g:seoul256_background = 236
+let g:seoul256_background = 235
 
 " seoul256 (light):
 "   Range:   252 (darkest) ~ 256 (lightest)
