@@ -72,6 +72,7 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
+let g:go_metalinter_autosave = 1
 let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 
 nmap <C-g> :GoDecls<cr>
