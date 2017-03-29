@@ -38,7 +38,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
 "================
 "CTRL-P
 "================
@@ -169,9 +168,6 @@ set switchbuf+=split
 "Use intuitive alignment for new splits
 set splitright
 set splitbelow
-
-"Indicate max line length. Set to 79 as defined in Pythons PEP 8
-execute "set colorcolumn=" . join(range(80,400), ',')
 
 "Display the cursors current line
 set cursorline
