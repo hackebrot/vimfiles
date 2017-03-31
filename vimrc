@@ -31,6 +31,7 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'keitanakamura/neodark.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -80,7 +81,6 @@ imap <C-g> <esc>:<C-u>GoDecls<cr>
 "Airline
 "================
 "Set theme for vim-airline
-let g:airline_theme = 'base16'
 let g:airline_extensions = ['ctrlp', 'whitespace', 'tabline']
 
 "Show tab number and number of splits in tabline
@@ -88,6 +88,11 @@ let g:airline#extensions#tabline#tab_nr_type = 2
 
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+"================
+"NeoDark
+"================
+let g:neodark#use_256color = 1
 
 "================
 "Seoul256
@@ -120,7 +125,7 @@ let $BASH_ENV = "~/.bash_aliases"
 "================
 "SETTINGS
 "================
-colorscheme seoul256
+colorscheme neodark
 "
 "Display line numbers
 set relativenumber
