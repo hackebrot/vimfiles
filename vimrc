@@ -2,42 +2,35 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syn on
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'ervandew/supertab'
+Plug 'fatih/vim-go'
+Plug 'foosoft/vim-argwrap'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'junegunn/seoul256.vim'
+Plug 'keitanakamura/neodark.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'maralla/completor.vim'
+Plug 'nvie/vim-flake8'
+Plug 'rking/ag.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'szw/vim-maximizer'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tommcdo/vim-exchange'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-Plugin 'davidhalter/jedi-vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'ervandew/supertab'
-Plugin 'fatih/vim-go'
-Plugin 'foosoft/vim-argwrap'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'junegunn/seoul256.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'maralla/completor.vim'
-Plugin 'nvie/vim-flake8'
-Plugin 'rking/ag.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'szw/vim-maximizer'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tommcdo/vim-exchange'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'keitanakamura/neodark.vim'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+" Initialize plugin system
+call plug#end()
 
 "================
 "CTRL-P
