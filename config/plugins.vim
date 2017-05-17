@@ -5,11 +5,21 @@ set wildignore+=*.pyc
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
+"Open file and open most recently used
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>f :CtrlPMRU<CR>
+
 "================
 "NERDTree
 "================
 "Ignore *.pyc files in NERDTree
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+"Open NERDTree in all tabs with space+t
+nnoremap <Leader>t :NERDTreeTabsToggle<CR>
+
+"Select current file in NERDTree
+nnoremap <Leader>s :NERDTreeTabsFind<CR>
 
 "================
 "Jedi-Vim
@@ -80,3 +90,6 @@ let g:maximizer_default_mapping_key = '++'
 "ArgWrap
 "================
 let g:argwrap_tail_comma = 1
+
+"ArgWrap toggle wrapping of collections in code
+nnoremap <silent> <Leader>j :ArgWrap<CR>
