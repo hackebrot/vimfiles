@@ -20,3 +20,4 @@ source $HOME/.config/nvim/plug.vim
 call plug#end()
 
 source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/functions.vim
