@@ -9,3 +9,5 @@ source $HOME/.config/nvim/plug.vim
 
 " Initialize plugin system
 call plug#end()
+
+source $HOME/.config/nvim/plugins.vim
