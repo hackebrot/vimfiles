@@ -25,3 +25,11 @@ call plug#end()
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/settings.vim
+
+"================
+"Directories
+"================
+"Use dedicated locations for vim files (see http://stackoverflow.com/a/15317146)
+set backupdir=~/.local/share/nvim/backup//
+set directory=~/.local/share/nvim/swap//
+set undodir=~/.local/share/nvim/undo//
