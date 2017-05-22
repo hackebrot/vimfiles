@@ -93,3 +93,8 @@ let g:argwrap_tail_comma = 1
 
 "ArgWrap toggle wrapping of collections in code
 nnoremap <silent> <Leader>j :ArgWrap<CR>
+
+"================
+"Tagbar
+"================
+nmap <F8> :TagbarToggle<CR>
