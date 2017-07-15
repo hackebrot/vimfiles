@@ -74,6 +74,8 @@ let g:neodark#use_256color = 1
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
+let g:limelight_paragraph_span = 1
+
 "================
 "Seoul256
 "================
