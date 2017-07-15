@@ -69,6 +69,12 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let g:neodark#use_256color = 1
 
 "================
+"Limelight
+"================
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+"================
 "Seoul256
 "================
 " seoul256 (dark):
