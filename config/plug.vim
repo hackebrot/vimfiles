@@ -1,3 +1,4 @@
+Plug 'cespare/vim-toml', { 'for': 'toml' }
 Plug 'easymotion/vim-easymotion'
 Plug 'ervandew/supertab'
 Plug 'fatih/vim-go'
