@@ -2,9 +2,10 @@
 vimfiles
 ========
 
-This repo features my personal vimrc_ as well as a cheat sheet for nifty vim commands.
+This repo features my personal `neovim config`_ as well as a cheat sheet for
+nifty vim commands.
 
-.. _vimrc: vimrc
+.. _`neovim config`: config/
 
 
 Cheat Sheet
@@ -17,7 +18,8 @@ Let's say you want to replace ``Hello World`` in the following text::
 
     We are going to write a simple Hello World program...
 
-Given that you searched for it via ``/Hello World``, you can simply use the following command to change the text::
+Given that you searched for it via ``/Hello World``, you can simply use the
+following command to change the text::
 
     cgn
 
@@ -39,7 +41,8 @@ See `Tip 860`_ by Marc Weber on the `vim wiki`_.
 Find in files
 ~~~~~~~~~~~~~
 
-Search for ``foobar`` in all python files in the current directory and all subdirectories::
+Search for ``foobar`` in all python files in the current directory and all
+subdirectories::
 
     :noautocmd vimgrep /foobar/gj ./**/*.py
 
@@ -107,7 +110,8 @@ You can also write all the changed tabs to disk in a single step::
 
     :tabdo execute "normal! @q" | update
 
-Depeneding on how you work with buffers you may need to choose a slightly different command:
+Depeneding on how you work with buffers you may need to choose a slightly
+different command:
 
 * ``argdo`` - all files in argument list
 * ``bufdo`` - all buffers
@@ -130,7 +134,8 @@ See `Tip 398`_ on the `vim wiki`_.
 Smartcase searching
 ~~~~~~~~~~~~~~~~~~~
 
-Given that both ``ignorecase`` and ``smartcase`` are enabled, vim does a case sensitive search only if the pattern contains an uppercase letter.
+Given that both ``ignorecase`` and ``smartcase`` are enabled, vim does a case
+sensitive search only if the pattern contains an uppercase letter.
 
 To explicitly search for a case sensitive pattern use the following::
 
@@ -142,7 +147,8 @@ See `Tip 1`_ on the `vim wiki`_.
 Substitute with ascending numbers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To replace each occurrence of *abc* with *xyz_N* where N is an ascending number (xyz_1, xyz_2, xyz_3, and so on)::
+To replace each occurrence of *abc* with *xyz_N* where N is an ascending number
+(xyz_1, xyz_2, xyz_3, and so on)::
 
     :let i = 1 | %s/abc/\='xyz_' . Inc()/g
 
@@ -324,7 +330,8 @@ License
 
 .. image:: https://i.creativecommons.org/l/by-sa/3.0/88x31.png
 
-This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
+This cheat sheet is licensed under a `Creative Commons Attribution-ShareAlike
+3.0 Unported License`_.
 
 
 .. _`Tip 1`: http://vim.wikia.com/wiki/Searching
