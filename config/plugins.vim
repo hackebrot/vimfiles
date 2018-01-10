@@ -52,6 +52,12 @@ nmap <C-g> :GoDecls<cr>
 imap <C-g> <esc>:<C-u>GoDecls<cr>
 
 "================
+"Rust
+"================
+let g:rustfmt_autosave = 1
+let g:rustfmt_command = "cargo fmt -- "
+
+"================
 "Airline
 "================
 "Set theme for vim-airline
