@@ -95,6 +95,16 @@ let g:seoul256_background = 235
 "   Default: 253
 let g:seoul256_light_background = 255
 
+
+"================
+"Ayu
+"================
+set termguicolors
+
+let ayucolor="light"
+
+colorscheme ayu
+
 "================
 "Maximizer
 "================
