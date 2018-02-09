@@ -1,5 +1,5 @@
 "Set colorscheme
-colorscheme neodark
+colorscheme ayu
 
 "Display line numbers
 set relativenumber
