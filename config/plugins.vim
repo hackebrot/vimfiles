@@ -97,13 +97,10 @@ let g:seoul256_light_background = 255
 
 
 "================
-"Ayu
+"Night-Owl
 "================
 set termguicolors
-
-let ayucolor="light"
-
-colorscheme ayu
+colorscheme night-owl
 
 "================
 "Maximizer

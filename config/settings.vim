@@ -1,6 +1,3 @@
-"Set colorscheme
-colorscheme ayu
-
 "Display line numbers
 set relativenumber
 set number
