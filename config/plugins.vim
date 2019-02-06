@@ -69,6 +69,9 @@ let g:airline#extensions#tabline#tab_nr_type = 2
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" Use Night Owl airline theme
+let g:airline_theme='night_owl'
+
 "================
 "NeoDark
 "================
