@@ -1,3 +1,4 @@
+Plug '/usr/local/opt/fzf'
 Plug 'cespare/vim-toml', { 'for': 'toml' }
 Plug 'easymotion/vim-easymotion'
 Plug 'ervandew/supertab'
@@ -5,6 +6,7 @@ Plug 'fatih/vim-go'
 Plug 'foosoft/vim-argwrap'
 Plug 'haishanh/night-owl.vim'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
