@@ -78,12 +78,14 @@ let g:airline_theme='night_owl'
 let g:neodark#use_256color = 1
 
 "================
-"Limelight
+"Limelight + Goyo
 "================
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
 let g:limelight_paragraph_span = 1
+
+nnoremap <Leader>G :Goyo<CR>
 
 "================
 "Seoul256
