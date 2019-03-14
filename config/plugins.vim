@@ -88,6 +88,11 @@ let g:limelight_paragraph_span = 1
 nnoremap <Leader>G :Goyo<CR>
 
 "================
+"Emoji
+"================
+command! -range EmojiReplace <line1>,<line2>s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g
+
+"================
 "Seoul256
 "================
 " seoul256 (dark):
