@@ -3,11 +3,6 @@ filetype off                  " required
 syn on
 
 "================
-"Read aliases
-"================
-let $BASH_ENV = "~/.bash_aliases"
-
-"================
 "Plugins
 "================
 
